@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies Consent</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="cookie-pane" class="animate__animated">
+      <div class="top-info">
+        <div class="image">
+          <img src="./img/cookies.png" alt="" />
+        </div>
+        <div id="check-consent">
+          <div class="consent-label">
+            <input type="checkbox" name="" id="cookie-1" />
+            <label for="">I like Cookie</label>
+          </div>
+          <div class="consent-label">
+            <input type="checkbox" name="" id="cookie-2" />
+            <label for="">Google and Rubicon</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="consent">
+        <button type="submit" id="cancel">No Cookie</button>
+        <button type="submit" id="valide">Yes</button>
+      </div>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+    <script
+      type="module"
+      src="../node_modules/js-cookie/dist/js.cookie.js"
+    ></script>
+  </body>
+</html>
